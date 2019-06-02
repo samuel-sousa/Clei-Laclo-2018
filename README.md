@@ -1,4 +1,4 @@
-# Samuel Bruno's Machine Learning Projects
+# XLIV Latin American Computing Conference - CLEI-LACLO 2018
 
 This repository stores data and code used on the experiments for my research paper "Cluster analysis of homicide rates in the Brazilian state of Goias from 2002 to 2014", published in the Proceedings of the 44th Latin American Computing Conference - Clei 2018. 
 
