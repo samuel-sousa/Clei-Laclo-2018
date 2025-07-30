@@ -15,15 +15,15 @@ normalize <- function(x) {
 
 #Data reading
 
-datasus <- read.xlsx("C:\\Users\\samue\\OneDrive\\Documentos\\UNIFESP\\Artigos\\CLEI\\Data//DADOS_DATASUS.xlsx",1, header = TRUE)
+datasus <- read.xlsx("C:\\..\\Data//DADOS_DATASUS.xlsx",1, header = TRUE)
 datasus[,2:14] <- apply(datasus[,2:14], MARGIN = c(1,2), as.numeric)
-pnud <- read.xlsx("C:\\Users\\samue\\OneDrive\\Documentos\\UNIFESP\\Artigos\\CLEI\\Data//DADOS_UNESCO.xlsx",1, header = TRUE)
+pnud <- read.xlsx("C:\\..\\Data//DADOS_UNESCO.xlsx",1, header = TRUE)
 pnud[,2:8] <- apply(pnud[,2:8], MARGIN = c(1,2), as.numeric)
-ibge <- read.xlsx("C:\\Users\\samue\\OneDrive\\Documentos\\UNIFESP\\Artigos\\CLEI\\Data//DADOSIBGE.xlsx",1, header = TRUE)
+ibge <- read.xlsx("C:\\..\\Data//DADOSIBGE.xlsx",1, header = TRUE)
 ibge <- ibge[1:246,]
 ibge[1:246,2:3] <- apply(ibge[1:246,2:3], MARGIN = c(1,2), as.double)
 
-ideb <- read.xlsx("C:\\Users\\samue\\OneDrive\\Documentos\\UNIFESP\\Artigos\\CLEI\\Data//IDEB.xlsx",1, header = TRUE)
+ideb <- read.xlsx("C:\\..\\Data//IDEB.xlsx",1, header = TRUE)
 ideb[,2:7] <- apply(ideb[,2:7], MARGIN = c(1,2), as.numeric)
 
 View(datasus)
